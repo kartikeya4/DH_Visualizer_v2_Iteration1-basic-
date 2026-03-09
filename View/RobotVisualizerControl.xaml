@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="DH_Visualizer_v2.RobotVisualizerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:h="http://helix-toolkit.org/wpf"
+             xmlns:local="clr-namespace:DH_Visualizer_v2">
+    
+    <Grid>
+        <h:HelixViewport3D x:Name="View_Port">
+            <h:SunLight x:Name="Light_Source"/>
+        </h:HelixViewport3D>    
+    </Grid>
+</UserControl>
