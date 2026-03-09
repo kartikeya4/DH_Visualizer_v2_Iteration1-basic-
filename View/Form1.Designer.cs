@@ -36,7 +36,6 @@
             this.Alpha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.joint_type = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.checkBox_Grid = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.DH_Parameter_Grid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,23 +110,11 @@
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // checkBox_Grid
-            // 
-            this.checkBox_Grid.AutoSize = true;
-            this.checkBox_Grid.Location = new System.Drawing.Point(927, 637);
-            this.checkBox_Grid.Name = "checkBox_Grid";
-            this.checkBox_Grid.Size = new System.Drawing.Size(54, 20);
-            this.checkBox_Grid.TabIndex = 3;
-            this.checkBox_Grid.Text = "Grid";
-            this.checkBox_Grid.UseVisualStyleBackColor = true;
-            this.checkBox_Grid.CheckedChanged += new System.EventHandler(this.checkBox_Grid_CheckedChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1371, 803);
-            this.Controls.Add(this.checkBox_Grid);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.DH_Parameter_Grid);
             this.Controls.Add(this.elementHost1);
@@ -135,7 +122,6 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.DH_Parameter_Grid)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -144,7 +130,6 @@
         private System.Windows.Forms.Integration.ElementHost elementHost1;
         private System.Windows.Forms.DataGridView DH_Parameter_Grid;
         private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.CheckBox checkBox_Grid;
         private System.Windows.Forms.DataGridViewTextBoxColumn Theta;
         private System.Windows.Forms.DataGridViewTextBoxColumn D;
         private System.Windows.Forms.DataGridViewTextBoxColumn A;
